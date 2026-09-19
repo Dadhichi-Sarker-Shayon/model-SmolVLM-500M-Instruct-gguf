@@ -1,0 +1,30 @@
+{
+  "base_repo": "HuggingFaceTB/SmolVLM-500M-Instruct",
+  "seed": 42,
+  "calib_lines": 3000,
+  "threads": 4,
+  "quants": [
+    "Q4_K_M",
+    "Q8_0"
+  ],
+  "ppl": {
+    "f16": 13.5363,
+    "Q4_K_M": 13.7871,
+    "Q8_0": 13.5752
+  },
+  "rise_q4_pct": 1.85,
+  "sha16": {
+    "smol-Q4_K_M.gguf": "b332f3cba9060dd3",
+    "smol-Q8_0.gguf": "972a92a59326666b",
+    "imatrix.dat": "8354788dc4b94a75",
+    "calib.txt": "d6922a9da92a7881",
+    "wikitext-test.txt": "28efc4aad1c6b5ed"
+  },
+  "sizes_gb": {
+    "smol-Q4_K_M.gguf": 0.3,
+    "smol-Q8_0.gguf": 0.44,
+    "imatrix.dat": 0.0,
+    "calib.txt": 0.0,
+    "wikitext-test.txt": 0.0
+  }
+}

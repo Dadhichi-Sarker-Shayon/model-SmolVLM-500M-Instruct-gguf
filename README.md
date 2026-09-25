@@ -31,7 +31,7 @@ pipeline_tag: text-generation
 
 Base: `HuggingFaceTB/SmolVLM-500M-Instruct` (Apache-2.0) · Quant: llama.cpp `0.4.1-dev` · imatrix on 3000-line wikitext-2 (seed 42, 625 chunks, 4 threads)
 
-⚠️ **Scope correction:** this repository holds the **text tower only** (291 tensors, llama arch — verified: image input is rejected). The SigLIP vision encoder and `mmproj` are NOT included, so this quant cannot see images. The PPL numbers below are valid for the text tower. The multimodal conversion attempt failed its 50-question ChartQA vision gate at 0/50 and is documented separately rather than shipped — see `SmolVLM-500M-Instruct-MM-GGUF`.
+⚠️ **Scope correction:** this repository holds the **text tower only** (291 tensors, llama arch — verified: image input is rejected). The SigLIP vision encoder and `mmproj` are NOT included, so this quant cannot see images. The PPL numbers below are valid for the text tower. 
 
 ## Format status
 

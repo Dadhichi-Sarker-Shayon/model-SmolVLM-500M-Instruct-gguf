@@ -20,6 +20,9 @@ pipeline_tag: text-generation
 
 <div align="center">
 
+<a href="https://huggingface.co/ShayonSarker/SmolVLM-500M-Instruct-Q4_K_M-GGUF"><img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge"></a>
+<a href="https://github.com/Dadhichi-Sarker-Shayon/model-SmolVLM-500M-Instruct-gguf"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge"></a>
+
 <img alt="Model" src="https://img.shields.io/badge/model-SmolVLM--500M--Instruct-8A2BE2?style=for-the-badge">
 <img alt="Published formats" src="https://img.shields.io/badge/GGUF-Q8_0%20%7C%20Q4_K_M-FFD21E?style=for-the-badge">
 <img alt="Scope" src="https://img.shields.io/badge/scope-TEXT%20TOWER%20ONLY-E8590C?style=for-the-badge">
@@ -28,6 +31,10 @@ pipeline_tag: text-generation
 <img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-7C3AED?style=for-the-badge">
 
 </div>
+
+**Downloads:** [Hugging Face — ShayonSarker/SmolVLM-500M-Instruct-Q4_K_M-GGUF](https://huggingface.co/ShayonSarker/SmolVLM-500M-Instruct-Q4_K_M-GGUF) · **Source &amp; build recipes:** [GitHub — model-SmolVLM-500M-Instruct-gguf](https://github.com/Dadhichi-Sarker-Shayon/model-SmolVLM-500M-Instruct-gguf) · **Base model:** [HuggingFaceTB/SmolVLM-500M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct) · **Failed vision attempt:** [MM-GGUF](https://huggingface.co/ShayonSarker/SmolVLM-500M-Instruct-MM-GGUF)
+
+The GGUF binaries are hosted on Hugging Face; this repository holds the reproducible conversion pipeline, calibration data, and checksums.
 
 Base: `HuggingFaceTB/SmolVLM-500M-Instruct` (Apache-2.0) · Quant: llama.cpp `0.4.1-dev` · imatrix on 3000-line wikitext-2 (seed 42, 625 chunks, 4 threads)
 
